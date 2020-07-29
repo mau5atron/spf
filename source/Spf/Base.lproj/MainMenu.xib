@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="13771" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14490.70"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13771"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -34,16 +34,52 @@
                         <action selector="setOverlayWithSender:" target="l7L-FZ-3TZ" id="UKb-E3-AUQ"/>
                     </connections>
                 </menuItem>
+                <menuItem title="18% opacity" tag="18" id="kim-aj-N26">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="setOverlayWithSender:" target="l7L-FZ-3TZ" id="e5m-kg-9Ab"/>
+                    </connections>
+                </menuItem>
                 <menuItem title="25% opacity" tag="25" id="sFe-Iy-4cK">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
                         <action selector="setOverlayWithSender:" target="l7L-FZ-3TZ" id="aGf-k9-ODh"/>
                     </connections>
                 </menuItem>
+                <menuItem title="38% opacity" tag="38" id="T1m-zR-G8g">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="setOverlayWithSender:" target="l7L-FZ-3TZ" id="DAD-cA-kol"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="45% opacity" tag="45" id="EhS-JW-fTG">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="setOverlayWithSender:" target="l7L-FZ-3TZ" id="zV5-2s-0G1"/>
+                    </connections>
+                </menuItem>
                 <menuItem title="50% opacity" tag="50" id="kwA-RC-aYn">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
                         <action selector="setOverlayWithSender:" target="l7L-FZ-3TZ" id="nuX-nV-R2s"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="60% opacity" tag="60" id="ukg-6z-0rf">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="setOverlayWithSender:" target="l7L-FZ-3TZ" id="vD0-B4-pmZ"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="75% opacity" tag="75" id="Y67-b7-Tl1">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="setOverlayWithSender:" target="l7L-FZ-3TZ" id="vwM-hY-grk"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="80% opacity" tag="80" id="JL1-GU-PWQ">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="setOverlayWithSender:" target="l7L-FZ-3TZ" id="wHl-9E-wk3"/>
                     </connections>
                 </menuItem>
                 <menuItem title="Clear" enabled="NO" id="mXr-Ps-Kl5">
