@@ -8,6 +8,10 @@
 
 import Cocoa
 
+extension NSImage.Name {
+    static let logo = NSImage.Name("polar-icon");
+}
+
 class SpfMenuController: NSObject {
     @IBOutlet weak var spfMenu: NSMenu!
     @IBOutlet weak var clearMenuItem: NSMenuItem!
@@ -19,7 +23,7 @@ class SpfMenuController: NSObject {
         
         // Waking up, set status bar icon and menu object
         
-        let icon = NSImage(named: "polar-icon")
+        let icon = NSImage(named: .logo)
         icon?.isTemplate = true
         statusItem.button?.image = icon
         statusItem.menu = spfMenu
@@ -51,7 +55,7 @@ class SpfMenuController: NSObject {
             overlays.removeAll()
             areOverlaysVisible = false
             clearMenuItem.isEnabled = false
-            let icon = NSImage(named: "polar-icon")
+            let icon = NSImage(named: .logo)
             statusItem.button?.image = icon
         }
     }
@@ -61,7 +65,8 @@ class SpfMenuController: NSObject {
         // Get the overlay value via menu item tag
         
         let overlayValue = Float(sender.tag)
-        
+      //   NSLog("%f", overlayValue);
+      
         if(areOverlaysVisible) {
             
             // Overlays exist, just update them with the new settings (and, if appropriate, screen size)
